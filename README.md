@@ -6,3 +6,7 @@ This is an arduino code for testing motor stepper, all pins connection already c
 first parameter is the dirrection by giving 0,1,2. 0 is stop, 1 is right, 2 is left relatively.
 second parameter is the step you want in integer.
 third parameter is the speed you want, is integer from 0 to 100
+
+Example : 
+*1,1000,50#
+it means that move the stepper to the right a thousand step with 50% speed 
